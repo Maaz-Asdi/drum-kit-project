@@ -47,8 +47,6 @@
 
 	const removeCrashRideTransition = e => {
 		if(e.propertyName !== 'transform') return;
-        // agar uss pp transform ki property lagi hi nai to 
-        // iss ko remove karny ki zororat bhi nai
 // curly braces are not given because the line is only of one line
 		e.target.style.transform = 'rotate(-7.2deg) scale(1.5)';
 	};
